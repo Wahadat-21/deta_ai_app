@@ -1,0 +1,41 @@
+# Node
+node_modules
+.next
+out
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+
+# Prisma
+prisma/dev.db
+
+# Logs
+logs
+*.log
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Reports
+reports/*
+!reports/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+
+# Build
+dist
+coverage
