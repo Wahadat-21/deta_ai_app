@@ -1,0 +1,23 @@
+               User
+                 │
+                 ▼
+        Next.js Frontend
+                 │
+     ┌───────────┼────────────┐
+     ▼           ▼            ▼
+ Image Upload   Chat      Dashboard
+     │           │            │
+     └───────────┼────────────┘
+                 │
+           API Routes
+                 │
+        FastAPI Backend
+       ┌────────┼───────────┐
+       ▼        ▼           ▼
+ AI Model    OpenAI API   Database
+       │        │           │
+       └────────┴───────────┘
+                 │
+           Return Result
+                 │
+         Next.js Dashboard
