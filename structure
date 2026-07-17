@@ -1,0 +1,88 @@
+DentalAI/
+│
+├── frontend/                     # Next.js App
+│   ├── app/
+│   │   ├── (auth)/
+│   │   │   ├── login/
+│   │   │   ├── register/
+│   │   │   └── forgot-password/
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── page.tsx
+│   │   │   ├── upload/
+│   │   │   ├── reports/
+│   │   │   ├── appointments/
+│   │   │   ├── chatbot/
+│   │   │   ├── profile/
+│   │   │   └── settings/
+│   │   │
+│   │   ├── api/
+│   │   │   ├── chat/
+│   │   │   ├── analyze/
+│   │   │   ├── report/
+│   │   │   ├── upload/
+│   │   │   └── auth/
+│   │   │
+│   │   ├── landing/
+│   │   ├── pricing/
+│   │   ├── about/
+│   │   ├── contact/
+│   │   └── layout.tsx
+│   │
+│   ├── components/
+│   │   ├── Navbar/
+│   │   ├── Sidebar/
+│   │   ├── Chat/
+│   │   ├── Upload/
+│   │   ├── ImageViewer/
+│   │   ├── ReportCard/
+│   │   ├── Loading/
+│   │   ├── Buttons/
+│   │   └── Charts/
+│   │
+│   ├── hooks/
+│   ├── lib/
+│   ├── services/
+│   ├── styles/
+│   └── utils/
+│
+├── backend/
+│   ├── FastAPI/
+│   │   ├── main.py
+│   │   ├── routes/
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── database/
+│   │   ├── ai/
+│   │   └── auth/
+│
+├── ai_models/
+│   ├── cavity_detection/
+│   ├── xray_detection/
+│   ├── gum_segmentation/
+│   ├── plaque_detection/
+│   ├── preprocessing/
+│   ├── inference.py
+│   └── train.py
+│
+├── database/
+│   ├── prisma/
+│   ├── schema.prisma
+│   └── migrations/
+│
+├── public/
+│
+├── uploads/
+│
+├── reports/
+│
+├── docs/
+│
+├── docker/
+│
+├── tests/
+│
+├── .env
+├── docker-compose.yml
+├── package.json
+└── README.md
